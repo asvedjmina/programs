@@ -210,7 +210,7 @@ beginning:
 			std::cin >> catName;
 			Cat::Cat(catName);
 			std::cout << "\nAnimal named " << catName << " has been created" << "\n";
-			std::string typeCat = "lion ";
+			std::string typeCat = "cat ";
 			fullCatName = typeCat + catName;
 			creatures.push_back(fullCatName);
 			cats.push_back(catName);
