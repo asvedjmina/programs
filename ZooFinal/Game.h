@@ -28,9 +28,9 @@ public:
 
 private:
     float m_speedFactor;
-    float m_speedX; // Скорость по оси X
-    float m_speedY; // Скорость по оси Y
-    float m_scale;  // Масштаб
+    float m_speedX; // speed for X
+    float m_speedY; //speed for Y
+    float m_scale;  // general scale
     SDL_Window *m_pWindow;
     SDL_Renderer *m_pRenderer;
     bool m_bRunning;
