@@ -117,4 +117,4 @@ private:
 
 
 
-#endif /* defined(__Game__) */
+#endif
